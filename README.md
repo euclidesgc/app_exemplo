@@ -36,6 +36,40 @@ A estrutura do projeto é a seguinte:
                 │   └── featurexpt_list_state.dart
                 └── featurexpt_list_page.dart
 
+## Requisitos para Execução
+
+Antes de executar este projeto localmente, certifique-se de que você possui os seguintes requisitos instalados:
+
+1. **Flutter SDK**:
+   - Certifique-se de que o Flutter está instalado e configurado corretamente.
+   - Versão mínima recomendada: `3.7.2`.
+   - [Guia de instalação do Flutter](https://docs.flutter.dev/get-started/install).
+
+2. **Dart SDK**:
+   - Incluído com o Flutter, mas certifique-se de que está atualizado.
+
+3. **Editor de Código**:
+   - Recomendado: [Visual Studio Code](https://code.visualstudio.com/) com as extensões:
+     - Flutter
+     - Dart
+
+4. **Dispositivo para Execução**:
+   - Emulador Android/iOS configurado ou dispositivo físico conectado.
+   - Certifique-se de que o dispositivo tem as permissões necessárias para depuração.
+
+5. **Dependências do Projeto**:
+   - Execute o comando abaixo para instalar as dependências do projeto:
+     ```bash
+     flutter pub get
+     ```
+
+6. **Outros Requisitos**:
+   - Certifique-se de que o ambiente de desenvolvimento possui as ferramentas necessárias para compilar o código, como:
+     - Android Studio (para configurar o SDK do Android e emuladores).
+     - Xcode (para desenvolvimento em iOS, apenas em macOS).
+
+Após garantir que todos os requisitos estão atendidos, siga as instruções abaixo para executar o projeto.
+
 ## Como Incluir um Novo Módulo
 
 1. Crie uma nova pasta dentro de `/modules` com o nome do módulo desejado. No exemplo acima, featurexpt.
