@@ -9,33 +9,34 @@ O app segue uma arquitetura modular inspirada na Clean Architecture, integrando 
 ## Estrutura do Projeto
 
 A estrutura do projeto é a seguinte:
-`
-├── app_providers.dart
-├── app_router.dart
-├── app_widget.dart
-├── main.dart
-└── modules
-    └── featurexpt_module
-        ├── featurexpt_module.dart
-        ├── data
-        │   └── featurexpt_repository.dart
-        ├── domain
-        │   ├── entities
-        │   │   └── featurexpt_entity.dart
-        │   └── use_cases
-        │       └── get_featurexpt_use_case.dart
-        └── presentation
-            ├── featurexpt_details
-            │   ├── cubit
-            │   │   ├── featurexpt_details_cubit.dart
-            │   │   └── featurexpt_details_state.dart
-            │   └── featurexpt_details_page.dart
-            └── featurexpt_list_page
-                ├── cubit
-                │   ├── featurexpt_list_cubit.dart
-                │   └── featurexpt_list_state.dart
-                └── featurexpt_list_page.dart
-`
+
+```
+├── app_providers.dart 
+├── app_router.dart 
+├── app_widget.dart 
+├── main.dart 
+└── modules 
+    └── featurexpt_module 
+        ├── featurexpt_module.dart 
+        ├── data 
+        │   └── featurexpt_repository.dart 
+        ├── domain 
+        │   ├── entities 
+        │   │   └── featurexpt_entity.dart 
+        │   └── use_cases 
+        │       └── get_featurexpt_use_case.dart 
+        └── presentation 
+            ├── featurexpt_details 
+            │   ├── cubit 
+            │   │   ├── featurexpt_details_cubit.dart 
+            │   │   └── featurexpt_details_state.dart 
+            │   └── featurexpt_details_page.dart 
+            └── featurexpt_list_page 
+                ├── cubit 
+                │   ├── featurexpt_list_cubit.dart 
+                │   └── featurexpt_list_state.dart 
+                └── featurexpt_list_page.dart 
+```
 
 ## Requisitos para Execução
 
