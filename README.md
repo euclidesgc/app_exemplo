@@ -9,7 +9,7 @@ O app segue uma arquitetura modular inspirada na Clean Architecture, integrando 
 ## Estrutura do Projeto
 
 A estrutura do projeto é a seguinte:
-
+`
 ├── app_providers.dart
 ├── app_router.dart
 ├── app_widget.dart
@@ -35,6 +35,7 @@ A estrutura do projeto é a seguinte:
                 │   ├── featurexpt_list_cubit.dart
                 │   └── featurexpt_list_state.dart
                 └── featurexpt_list_page.dart
+`
 
 ## Requisitos para Execução
 
